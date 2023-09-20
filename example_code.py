@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import nibabel as nib
 import os, glob
-from scipy import ndimage
+from scipy import ndimage #'1.8.0'
 
 def remove_extra_clusters_from_mask(path_to_mask, path_to_aseg = None):
     '''Function that removes smaller/unconnected clusters from brain mask
